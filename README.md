@@ -36,10 +36,10 @@ And setCustomAnim.
 ```java
 getFragmentManager()
     .beginTransaction()
-    .setCustomAnimations(R.animator.scalex_enter,
-                         R.animator.scalex_exit,
-                         R.animator.scalex_enter,
-                         R.animator.scalex_exit);
+    .setCustomAnimations(R.anim.scalex_enter,
+                         R.anim.scalex_exit,
+                         R.anim.scalex_enter,
+                         R.anim.scalex_exit);
     .add(R.id.container, new YourFragment(), YourFragment.class.getName())
     .commit();
 ```
